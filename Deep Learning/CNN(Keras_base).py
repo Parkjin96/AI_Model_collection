@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 #참조 : https://lhh3520.tistory.com/376
 
 import tensorflow as tf
@@ -12,15 +6,10 @@ from tensorflow.keras import utils, layers, datasets
 from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Conv2D, MaxPooling2D
 
-
-# In[ ]:
-
-
 import numpy as np
 import matplotlib.pyplot as plt
 
-
-# In[ ]:
+#require images#
 
 
 #adjust data
@@ -35,11 +24,9 @@ test_images = test_images.astype('float32')
 test_images = test_images / 255
 
 
-# In[ ]:
 
 
 #make model
-
 model = keras.Sequential()
 model.add(layers.Conv2D(32, (3, 3), activation='relu', input_shape=(28, 28, 1)))
 model.add(layers.MaxPooling2D((2, 2)))
@@ -58,7 +45,6 @@ model.add(layers.Dense(10, activation='softmax'))
 model.summary()
 
 
-# In[ ]:
 
 
 #model compile
@@ -69,7 +55,7 @@ model.compile(
 )
 
 
-# In[ ]:
+
 
 
 #train model
@@ -84,16 +70,13 @@ history = model.fit(
 )
 
 
-# In[ ]:
 
 
 # eval model
 loss, acc = model.evaluate(val_imags, val_labels)
-
 print('\nLoss: {}, ACC: {}'.format(loss,acc))
 
 
-# In[ ]:
 
 
 #predict
