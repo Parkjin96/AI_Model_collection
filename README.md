@@ -4,6 +4,7 @@
 
 ### Machine Learning
  - LGMB
+ - Pycerat(classification)
 
 
 ### Deep Learning
