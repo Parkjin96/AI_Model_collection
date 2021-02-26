@@ -3,6 +3,7 @@
 
 
 ### Machine Learning
+ - Linear / multiple, lasso, ridge, elasticnet
  - LGMB
  - Pycerat(classification)
 
