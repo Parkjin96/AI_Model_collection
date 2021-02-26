@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
+#need to install
 
 #pycaret autoML(classification)
 from pycaret.classification import *
