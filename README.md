@@ -10,3 +10,4 @@
 
 ### Deep Learning
  - CNN
+ - LSTM
