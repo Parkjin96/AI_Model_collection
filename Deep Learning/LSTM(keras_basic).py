@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
+# 출처: https://ebbnflow.tistory.com/135 [Dev Log : 오늘의 삽질]
 
 from numpy import array
 from tensorflow.keras.models import Sequential
@@ -49,10 +45,7 @@ yhat = model.predict(x_input)
 print(yhat)
 
 
-# 출처: https://ebbnflow.tistory.com/135 [Dev Log : 오늘의 삽질]
 
-
-# In[ ]:
 
 
 # EarlyStopping
@@ -90,6 +83,4 @@ x_input = x_input.reshape((1,3,1))
 yhat = model.predict(x_input)
 print(yhat)
 
-
-#출처: https://ebbnflow.tistory.com/135 [Dev Log : 오늘의 삽질]
 
