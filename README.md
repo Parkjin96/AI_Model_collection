@@ -4,11 +4,11 @@
 
 ### 1. Machine Learning  
 
-   1) Classifcation  
+   1). Classifcation  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Classification/Lgbm_base.py">LGMB</A>  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Classification/Pycaret(Classification).py">Pycerat(classification)</A>  
     
-   2) Regressor
+   2). Regressor
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Regressor/Linear(multiple%2C%20lasso%2C%20ridge%2C%20elasticnet).py">Linear / multiple, lasso, ridge, elasticnet</A>  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Regressor/Catboost(regressor_base).py">Catboost</A>  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Regressor/XGB(Regressor_base).py">XGB</A>  
