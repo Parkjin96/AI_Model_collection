@@ -17,3 +17,7 @@
 ### 2. Deep Learning
  - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Deep%20Learning/CNN(Keras_base).py">CNN</A>
  - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Deep%20Learning/LSTM(keras_basic).py">LSTM</A>
+
+
+### 3. Auto AI
+ - Pycaret
