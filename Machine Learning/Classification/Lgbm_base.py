@@ -1,10 +1,11 @@
+######## multiclass(>2) ########
 import lightgbm as lgb
 from sklearn.model_selection import train_test_split
 
 # adjust param
 lgbm_param = {
     "objective": "multiclassova",
-    'n_estimators' : NUM_BOOST_ROUND,
+    'n_estimators' : num,
     "boosting": "gbdt",
     "num_leaves": 40,
     "learning_rate": 0.008,
@@ -12,7 +13,7 @@ lgbm_param = {
     "reg_lambda": 2,
     "metric": "multiclass",
     "num_class" : 3,
-    'seed' : SEED,
+    'seed' : seed_num,
 }
 
 # train/valid data split
@@ -41,3 +42,9 @@ lgb.plot_importance(model, importance_type='gain', max_num_features = max_num_fe
 # predict test data
 test_predict = model.predict(test)
 
+
+
+
+
+
+######## binary(2) ######## 
