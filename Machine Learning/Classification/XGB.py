@@ -1,11 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-#XGB(Classifier)
+#### XGB(Classifier) ####
 import xgboost as xgb
+
 # 반드시 튜닝해야할 파라미터는  min_child_weight / max_depth / gamma
 xgb_model = xgb.XGBClassifier(
     booster='gbtree',      # 트리,회귀(gblinear) 트리가 항상 
@@ -67,7 +62,7 @@ model = xgb_model.fit(X_train,y_train,eval_set = [(X_val,y_val)],eval_metric = '
 #     early_stopping_rounds=100,20 :100번,20번 반복동안 향상 되지 않으면 stop
 
 
-#### Featurne imoprtance####
+#### Featurne imoprtance ####
 plot_importance(model)
 pyplot.show()
 
