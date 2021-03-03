@@ -6,7 +6,7 @@
 
    1) Classifcation  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Classification/Lgbm_base.py">LGMB</A>  
-     - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Classification/Pycaret(Classification).py">Pycerat</A>
+     - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Classification/Pycaret(Classification).py">Pycerat</A>  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Classification/XGB.py">XGB</A>  
     
    2) Regressor  
