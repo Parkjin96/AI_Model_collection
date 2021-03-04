@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 ################ 다중 선형회귀 ###############
 from sklearn.linear_model import LinearRegression
 mlr = LinearRegression()
@@ -39,7 +33,11 @@ from sklearn.linear_model import Ridge
 ridge = Ridge(random_state = SEED)
 
 # 릿지 회귀 모델 훈련
-ridge = Ridge(alpha=0.0001).fit(X_train, y_train) 
+ridge = Ridge(alpha=0.0001).fit(X_train, y_train)  #alpha(람다 역할)
+                                                   #1. alpha가 작을수록 제약이 약해지고 더 많은 변수를 피팅함 -> Overfitting
+                                                   #2. alpha가 클수록 제약이 강해지고 적은 변수를 피팅함 -> Underfitting
+                                                   #  ==> alpha에 따른 val 검증을 통해 alpha의 최적값을 찾아야 한다.
+
 # val 예측
 y_predict = ridge.predict(X_val)
 # 모델 평가
