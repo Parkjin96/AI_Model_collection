@@ -18,7 +18,7 @@ print('y shape : ', y.shape) # (4,)
  
 print(x)
 print('-------x reshape-----------')
-x = x.reshape((x.shape[0], x.shape[1], 1)) # (4,3,1) reshape 전체 곱 수 같아야 4*3=4*3*1
+x = x.reshape((x.shape[0], x.shape[1], 1)) # (train data 개수, 한 주기의 길이, 몇 주기를 학습 시킬지)
 print('x shape : ', x.shape)
 print(x)
 #  x        y
@@ -27,7 +27,7 @@ print(x)
  
 # 2. 모델 구성
 model = Sequential()
-model.add(LSTM(10, activation = 'relu', input_shape=(3,1)))
+model.add(LSTM(10, activation = 'relu', input_shape=(3,1))) #(한 주기의 길이, 몇 주기를 학습 시킬지)
 # DENSE와 사용법 동일하나 input_shape=(열, 몇개씩잘라작업)
 model.add(Dense(5))
 model.add(Dense(1))
