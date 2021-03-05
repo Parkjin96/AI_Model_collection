@@ -14,9 +14,9 @@ best = compare_models(sort = 'RMSE') # sort에 평가 지표설정(ex : f1, auc,
 
 
 # 3. 모델 생성 ( 모델 비교 결과 참고 )
-cat = create_model('catboost', cross_validation = False)
-xgb = create_model('xgboost', cross_validation = False)
-gbr = create_model('gbr', cross_validation = False)
+cat = create_model('catboost', cross_validation = False)# ---- 
+xgb = create_model('xgboost', cross_validation = False)#     ㅣ----- for using gpu : add param [, tree_method = 'gpu_hist']
+gbr = create_model('gbr', cross_validation = False)#    ------
 
 
 
