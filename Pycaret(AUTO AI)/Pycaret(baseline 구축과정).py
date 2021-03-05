@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
+# 참조 : https://today-1.tistory.com/17 #
 
 # 1. 함수 홀출 및 환경 설정
 #함수 호출
