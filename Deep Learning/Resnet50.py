@@ -1,5 +1,5 @@
 
-# 출처 : 
+# 출처 : https://rarena.tistory.com/entry/keras-%ED%8A%B9%EC%A0%95-%EB%AA%A8%EB%8D%B8%EB%A1%9C%EB%93%9C%ED%95%98%EC%97%AC-%EB%82%B4-%EB%A0%88%EC%9D%B4%EC%96%B4
 
 from keras.applications import ResNet50
 from keras.layers import Dense, Input, Activation
