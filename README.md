@@ -19,10 +19,10 @@
 ### 2. Deep Learning
 
    1) Image  
-      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Deep%20Learning/CNN(Keras_base).py">CNN</A>
+     - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Deep%20Learning/CNN(Keras_base).py">CNN</A>
  
    2) Time series  
-      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Deep%20Learning/LSTM(keras_basic).py">LSTM</A>
+     - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Deep%20Learning/LSTM(keras_basic).py">LSTM</A>
 
 ### 3. Auto AI
  - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Pycaret(AUTO%20AI)/Pycaret_Classification%20Tutorial%20for%20Beginners.ipynb
