@@ -1,8 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
+# 출처 : https://magoker.tistory.com/105
 
 import pandas as pd
 import numpy as np
