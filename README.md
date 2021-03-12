@@ -25,7 +25,7 @@
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Deep%20Learning/LSTM(keras_basic).py">LSTM</A>
    
    3) Image + Time series  
-     - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Deep%20Learning/LSTM(keras_basic).py">ConvLSTM</A>
+     - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Deep%20Learning/Image%20+%20Time%20Series/ConvLSTM.py">ConvLSTM</A>
 
 
 ### 3. Auto AI
