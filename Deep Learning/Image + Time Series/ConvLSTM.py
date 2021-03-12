@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-# 출처 : 
+# 출처 : https://dacon.io/competitions/official/235706/codeshare/2447?dtype=recent
 
 import os
 import pandas as pd
