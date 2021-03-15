@@ -4,7 +4,7 @@
 
 ### 1. Machine Learning  
 
-   1) Classifcation  
+   1) <A href="https://github.com/Parkjin96/AI_Model_collection/tree/main/Machine%20Learning/Classification">Classifcation</A>  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Classification/Lgbm_base.py">LGMB</A>  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Classification/Pycaret(Classification).py">Pycerat</A>  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Classification/XGB.py">XGB</A>  
