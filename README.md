@@ -10,7 +10,7 @@
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Classification/XGB.py">XGB</A>  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Classification/RF.py">RF</A>  
    
-   2) Regressor  
+   2) <A href="https://github.com/Parkjin96/AI_Model_collection/tree/main/Machine%20Learning/Regressor">Regressor</A>    
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Regressor/Linear(multiple%2C%20lasso%2C%20ridge%2C%20elasticnet).py">Linear / multiple, lasso, ridge, elasticnet</A>  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Regressor/Catboost(regressor_base).py">Catboost</A>  
      - <A href="https://github.com/Parkjin96/AI_Model_collection/blob/main/Machine%20Learning/Regressor/XGB(Regressor_base).py">XGB</A>  
